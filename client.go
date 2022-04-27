@@ -94,7 +94,7 @@ func mjpegCapture() {
 	}
 }
 
-var addr = flag.String("addr", "服务器:12312", "http service address")
+var addr = flag.String("addr", "127.0.0.1:12312", "http service address")
 var webSocket *websocket.Conn
 func websocketMain() {
 	flag.Parse()
